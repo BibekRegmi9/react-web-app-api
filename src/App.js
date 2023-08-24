@@ -13,7 +13,7 @@ function App() {
         "https://newsapi.org/v2/top-headlines?country=us&apiKey=d30b047433524b4d9c37994e0565f354"
       )
       .then((res) => {
-        console.log(res.data.articles);
+        // console.log(res.data.articles);
         setNews(res.data.articles);
       });
   }, []);
